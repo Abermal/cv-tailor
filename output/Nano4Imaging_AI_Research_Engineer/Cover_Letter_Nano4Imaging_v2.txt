@@ -1,0 +1,23 @@
+Nano4Imaging GmbH
+Attn: Samuel Mueller, Recruiting Team
+Merowingerplatz 1
+Life Science Center
+40225 Duesseldorf
+Germany
+
+17 August 2026
+
+Dear Mr Mueller,
+
+I am applying for the AI Research Engineer position because it brings together the two parts of my work that I care about most: developing strong computer-vision methods and making them useful in real clinical settings. My background is in machine learning for medical imaging, and I have worked with clinicians and research partners from my first substantial projects through to systems that are now used in clinical trials.
+
+My interest in this area started during my studies, when I worked on projects in cooperation with a local hospital. Medical applications have stayed especially motivating to me because the work can have a direct impact on how patients are diagnosed and treated, and because the results are shaped by close cooperation with the people who care for them. I continued in this direction with my thesis on anatomical landmark localization for orthopedics. In cooperation with spine specialists, I improved the previous model by 30%; the work was presented at DWG 2023.
+
+Since then, I have continued to work across different medical-imaging problems. In the three-year BMBF Photiomics project, I developed 3D instance-segmentation and registration models for liver-cancer research, successfully carrying the project through despite not having a background in cellular science. More recently, I developed, validated, and deployed an end-to-end 2D–3D registration system for implant pose estimation from X-rays. The work was presented at EFORT 2026, and the system is now used at scale in current clinical trials.
+
+This experience is a good match for Nano4Imaging's work on real-time MRI navigation. The modality is different from the imaging problems I have worked on so far, but the medical setting is exactly the kind of environment in which I want to continue developing: close to clinical specialists, technically demanding, and focused on making interventions safer and more precise. I would be excited to bring my experience in deep learning, image registration, segmentation, experimentation, and clinical collaboration to the development of TRACKR.
+
+Thank you for considering my application. I would welcome the opportunity to discuss how my experience could contribute to Nano4Imaging's work on safer image-guided interventions.
+
+Kind regards,
+Kostiantyn Pysanyi

@@ -1,0 +1,17 @@
+# Temporary visual-validation files
+tmp/
+
+# LaTeX build intermediates (keep source .tex and final .pdf files)
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+*~

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Render LaTeX"
+  short_description: "Render, version, validate, and finalize LaTeX CVs"
+  default_prompt: "Use $render-latex to render or finalize the tailored CV, preserve locked drafts through numbered versions, validate the page count, and report the generated PDF or actionable errors."
