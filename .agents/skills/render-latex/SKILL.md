@@ -1,6 +1,6 @@
 ---
 name: render-latex
-description: Merge and compile a tailored LaTeX CV, validate its PDF and page count, create numbered versions when standard artifacts are locked, and finalize an accepted version under the standard filename. Use when a tailored CV must be rendered, rerendered, checked for LaTeX errors, or finalized after the user approves a version.
+description: Compile and validate tailored LaTeX CVs and cover letters, create numbered versions when standard artifacts are locked, and finalize accepted CV versions. Use when application documents must be rendered, rerendered, checked for LaTeX errors, or finalized.
 ---
 
 # Render LaTeX
@@ -23,6 +23,19 @@ Build, version, validate, and finalize a self-contained vacancy-specific CV.
 6. If a PDF renderer is already available, inspect the rendered page for clipping, overflow, broken glyphs, and accidental extra pages. Do not install a renderer solely for the page-count check.
 7. Keep the vacancy-specific body and generated artifacts in the same `output/<vacancy-slug>/` directory. Never overwrite `cv/master_cv.tex` or `cv/header_cv.tex`.
 
+## Render a cover letter
+
+1. Save the complete cover-letter source under `output/<vacancy-slug>/` with a safe filename beginning with `Cover_Letter_`.
+2. Run the deterministic cover-letter renderer from the repository root:
+
+   ```powershell
+   powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\.agents\skills\render-latex\scripts\render_cover_letter.ps1" -TexPath ".\output\<vacancy-slug>\Cover_Letter_<name>.tex"
+   ```
+
+   Pass `-Passes 2` only when references or PDF metadata require another pass. Do not call `pdflatex.exe` directly. The script restricts inputs to cover-letter sources under `output/`, disables shell escape, resolves the local compiler, handles a locked standard artifact with a numbered PDF version, and returns JSON.
+3. Treat `status: error`, a nonzero process exit, a missing PDF, or a fatal LaTeX error as failure. Use the exact paths, version status, page count, and warnings returned by the script.
+4. Inspect the rendered page when a PDF renderer is available. A successful compilation is not sufficient when text is clipped, crowded, or unintentionally spans multiple pages.
+
 ## Finalize an accepted version
 
 Treat clear approval such as "this version is good", "finalize it", "use the latest version", or an equivalent instruction as authorization to publish the latest version. Do not infer approval from an ordinary correction or rerender request.
@@ -43,9 +56,9 @@ Treat clear approval such as "this version is good", "finalize it", "use the lat
 
 - Do not silently rewrite the document to make it compile. Return compiler errors to the calling CV-tailoring workflow so it can repair the tailored body while preserving factual content.
 - Before compiling, perform safe structural checks when useful: balanced braces, valid `\\href{url}{text}` forms, and escaped textual `&` and `%`.
-- Do not bypass the scripts with improvised Python, MiKTeX discovery, file-versioning, or cleanup commands.
+- Do not bypass the scripts with direct `pdflatex` calls, improvised Python, MiKTeX discovery, file-versioning, or cleanup commands.
 - Report rendering as unavailable only after the script's compiler-resolution options fail or MiKTeX reports genuinely missing required packages.
 
 ## Output
 
-Report the exact body input, artifact/version status, merged `.tex` path, generated `.pdf` path if successful, compilation status, page count, and the first actionable error plus log path if compilation failed. After finalization, report the standard PDF path and any cleanup failures.
+Report the exact input, artifact/version status, `.tex` path, generated `.pdf` path if successful, compilation status, page count, and the first actionable error plus log path if compilation failed. After CV finalization, report the standard PDF path and any cleanup failures.

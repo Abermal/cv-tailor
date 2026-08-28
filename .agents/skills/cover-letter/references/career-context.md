@@ -2,6 +2,14 @@
 
 This file contains user-provided context for writing cover letters. It complements, but does not replace, `cv/master_cv.tex`.
 
+## General technical and domain motivation
+
+- The candidate is broadly motivated by applying machine learning and computer vision to real-world problems and by developing systems that work reliably beyond a research prototype.
+- For engineering-heavy roles, the candidate is particularly motivated by mature, reliable systems where maintainability, reproducibility, and a smooth development and operations workflow are treated as core engineering outcomes. The candidate sees this level of technical maturity as an important professional standard to pursue throughout their career.
+- Use that stable motivation as the starting point, then connect it to a technical challenge that is genuinely specific to the position. Do not present "real-world ML" alone as if it distinguished one vacancy from another.
+- A meaningful domain can deepen the motivation. Medicine and climate-related work are especially inspiring to the candidate. Mention this briefly and in ordinary language when relevant; do not manufacture mission rhetoric or make every employer sound purpose-driven.
+- The preferred opening logic is: "I am applying for this role because..." followed by the technical work that makes the position interesting; optionally add why the domain matters; then explain why the candidate's experience is relevant and what they can contribute.
+
 ## Medical-imaging trajectory
 
 - The candidate's first substantial projects during their studies were carried out in cooperation with a local hospital. Working with real doctors was highly motivating and established a long-term interest in clinically useful machine learning.
@@ -37,11 +45,19 @@ This file contains user-provided context for writing cover letters. It complemen
 
 - For defence roles: As a Ukrainian citizen, the candidate knows personally what defending democracy means. The opportunity to contribute directly to that cause would be deeply meaningful. Use this plainly and preferably after the technical fit has been established.
 
+## German and stakeholder communication
+
+- Use this evidence when a vacancy explicitly emphasizes German proficiency, stakeholder communication, presentations, knowledge transfer, or explaining complex technical subjects. Do not add it automatically to every letter.
+- As of August 2026, the candidate has studied German since age twelve, has lived in Germany for seven years, holds C1 German with a passed TestDaF, and uses German professionally and socially.
+- The candidate provided the following reusable German paragraph. It may be shortened or adapted to the vacancy while preserving its factual meaning:
+
+> Deutsch lerne ich seit meinem zwölften Lebensjahr und lebe seit sieben Jahren in Deutschland. Deutsch ist nicht meine Muttersprache, doch mit C1-Niveau und bestandenem TestDaF arbeite und kommuniziere ich sicher auf hohem professionellen Niveau. In einem von mir geleiteten BMBF-Projekt verfasste ich Berichte, vermittelte komplexe Forschungsthemen in Präsentationen und diskutierte sie mit Projektpartnern, darunter Ärztinnen und Ärzte der Charité. Auch im täglichen Austausch mit deutschen Kolleg:innen und Freund:innen ist Deutsch für mich seit Jahren selbstverständlich.
+
 ## Writing guidance
 
 - Present the trajectory differently depending on the position. Research-heavy roles should foreground clinical questions, experimentation, learning across disciplines, and validation. Engineering-heavy roles should foreground maintainability, deployment, infrastructure, compliance constraints, and reliable production use.
 - Keep the tone personal but restrained. The goal is to show why the work matters and why the role is a credible next step, not to repeat the CV.
-- For a direct opening, the candidate prefers motivation for both the role's technical challenge and the employer's mission, followed by "I believe my experience..." and a clear contribution statement. Do not reduce the candidate's fit to "my three years" because the relevant experience comes from several roles and studies.
+- For a direct opening, the candidate prefers the role's technical challenge first, followed by an optional brief mission or domain reason when it is genuinely motivating, then "I believe my experience..." and a clear contribution statement. Do not reduce the candidate's fit to "my three years" because the relevant experience comes from several roles and studies.
 - Avoid employer-as-benefit language such as "a strong next step for me." Center what is compelling about the work and what the candidate can contribute.
 - Do not volunteer weak-point disclaimers about missing modalities, tracking, or sensor-fusion experience. Describe relevant transferable experience and genuine interest without implying experience that is not present.
 - Avoid generic package lists in the letter. Prefer concrete architectures, data decisions, annotation ownership, and deployment constraints tied to specific work.
