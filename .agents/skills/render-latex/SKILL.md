@@ -10,15 +10,21 @@ Build, version, validate, and finalize a self-contained vacancy-specific CV.
 ## Render or rerender
 
 1. Receive the exact tailored body file and vacancy output directory from the calling workflow. The body must live under `output/<vacancy-slug>/` and originate as a copy of `cv/master_cv.tex`.
-2. Run `scripts/render_cv.ps1`; do not recreate its merge, compiler-discovery, compilation, or page-count logic. On this Windows host, invoke it through `powershell.exe` so the system execution policy does not block the repository script:
+2. Run the platform-specific renderer; do not recreate its merge, compiler-discovery, compilation, or page-count logic. On Linux, invoke:
+
+   ```bash
+   python3 .agents/skills/render-latex/scripts/render_cv.py --body-path output/<vacancy-slug>/master-tailored-body.tex --output-directory output/<vacancy-slug> --document-name CV_Kostiantyn_Pysanyi
+   ```
+
+   On Windows, invoke:
 
    ```powershell
    powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\.agents\skills\render-latex\scripts\render_cv.ps1" -BodyPath ".\output\<vacancy-slug>\master-tailored-body.tex" -OutputDirectory ".\output\<vacancy-slug>" -DocumentName "CV_Kostiantyn_Pysanyi"
    ```
 
-   Pass `-Passes 2` only when cross-references or page numbering require another pass. Pass `-PdfLatexPath` only when the user supplied a nonstandard compiler location. If the sandbox cannot access the resolved MiKTeX executable, rerun this exact script command with approved external execution.
+   Pass `--passes 2` on Linux or `-Passes 2` on Windows only when cross-references or page numbering require another pass. Pass the platform's explicit pdflatex-path option only when the user supplied a nonstandard compiler location.
 3. Read the script's JSON result. Treat `status: error`, a nonzero process exit, a missing PDF, or a fatal LaTeX error as failure. Return `first_actionable_error` and `log_path` when supplied.
-4. Use the exact `pdf_path`, `tex_path`, `artifact_stem`, `version`, and `page_count` returned by the script. It writes the standard name when available, falls back to `_version1` when a standard artifact is locked, and continues the highest existing version sequence on subsequent rerenders.
+4. Use the exact `pdf_path`, `tex_path`, `artifact_stem`, `version`, and `page_count` returned by the script. It writes the standard name when available and continues the highest existing `_versionN` sequence on subsequent rerenders. The Windows implementation also falls back to `_version1` when a standard artifact is locked.
 5. Do not install Python packages or invoke a separate PDF library to count pages. The script extracts the authoritative count from the LaTeX log.
 6. If a PDF renderer is already available, inspect the rendered page for clipping, overflow, broken glyphs, and accidental extra pages. Do not install a renderer solely for the page-count check.
 7. Keep the vacancy-specific body and generated artifacts in the same `output/<vacancy-slug>/` directory. Never overwrite `cv/master_cv.tex` or `cv/header_cv.tex`.
@@ -27,13 +33,19 @@ Build, version, validate, and finalize a self-contained vacancy-specific CV.
 
 Treat clear approval such as "this version is good", "finalize it", "use the latest version", or an equivalent instruction as authorization to publish the latest version. Do not infer approval from an ordinary correction or rerender request.
 
-1. Run the deterministic finalizer:
+1. Run the deterministic finalizer. On Linux:
+
+   ```bash
+   python3 .agents/skills/render-latex/scripts/finalize_cv.py --output-directory output/<vacancy-slug> --document-name CV_Kostiantyn_Pysanyi
+   ```
+
+   On Windows:
 
    ```powershell
    powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\.agents\skills\render-latex\scripts\finalize_cv.ps1" -OutputDirectory ".\output\<vacancy-slug>" -DocumentName "CV_Kostiantyn_Pysanyi"
    ```
 
-   Pass `-Version N` only when the user explicitly accepts a version other than the latest.
+   Pass `--version N` on Linux or `-Version N` on Windows only when the user explicitly accepts a version other than the latest.
 2. Let the script verify the selected PDF and page count, publish its artifact set under the standard filename, verify the published PDF and TeX hashes, and then remove `_versionN` build artifacts. Never manually delete versioned files before successful publication.
 3. If the result is `finalization_blocked`, tell the user which standard artifact is locked and ask them to close it before retrying. Leave every standard and versioned artifact untouched.
 4. If the result is `cleanup_pending`, report the successfully published standard PDF and the locked versioned files that remain. Retry cleanup on a later finalization request; do not treat the published PDF as failed.
@@ -43,8 +55,8 @@ Treat clear approval such as "this version is good", "finalize it", "use the lat
 
 - Do not silently rewrite the document to make it compile. Return compiler errors to the calling CV-tailoring workflow so it can repair the tailored body while preserving factual content.
 - Before compiling, perform safe structural checks when useful: balanced braces, valid `\\href{url}{text}` forms, and escaped textual `&` and `%`.
-- Do not bypass the scripts with improvised Python, MiKTeX discovery, file-versioning, or cleanup commands.
-- Report rendering as unavailable only after the script's compiler-resolution options fail or MiKTeX reports genuinely missing required packages.
+- Do not bypass the platform-specific scripts with improvised compiler discovery, file-versioning, or cleanup commands.
+- Report rendering as unavailable only after the script's compiler-resolution options fail or the installed TeX distribution reports genuinely missing required packages.
 
 ## Output
 

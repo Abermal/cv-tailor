@@ -57,7 +57,7 @@ Use a body-first workflow. For job matching, read the complete position descript
 - Use valid `\href{url}{text}` syntax; never paste Markdown links into LaTeX.
 - Use `--` for date and numeric ranges where appropriate.
 - Preserve the existing macros and document class.
-- Do not conclude that rendering is unavailable merely because the default sandbox cannot access `pdflatex`. Invoke `$render-latex` through its repository script and, if required, use approved external execution of that exact script command. Do not independently search for MiKTeX or install Python packages for PDF page counting.
+- Do not conclude that rendering is unavailable merely because the default sandbox cannot access `pdflatex`. Invoke `$render-latex` through the repository script for the host platform and, if required, use approved external execution of that exact script command. Do not install Python packages for PDF page counting.
 
 ## Response format
 
