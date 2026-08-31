@@ -11,18 +11,19 @@ Use a body-first workflow. For job matching, read the complete position descript
 
 ## Workflow
 
-1. Read the complete position description and `cv/master_cv.tex`.
-2. Extract core responsibilities, mandatory requirements, preferred requirements, ATS keywords, and the employer's actual priority.
-3. Map each important requirement to **strong match**, **partial match**, or **gap/unsupported**.
-4. Identify adjacent technologies or skills already supported by the master but not explicitly emphasized. Ask the user about each high-value plausible omission before claiming it in the CV. Do not ask about clearly unrelated requirements; classify those as gaps.
-5. Create a sanitized vacancy directory under `output/`, using a stable employer-role name such as `output/Acme_ML_Engineer/`. Copy the complete body of `cv/master_cv.tex` into that directory as `master-tailored-body.tex` and tailor only that copy. Never overwrite `cv/master_cv.tex`.
-6. Rephrase, compress or expand, or highlight the relevant parts of the supported material to emphasize the strongest matches. Preserve factual meaning, existing macros, section structure, useful bold emphasis, and keep one-page density.
+1. Create a sanitized vacancy directory under `output/`, using a stable employer-role name such as `output/Acme_ML_Engineer/`, and save the complete position description there as `position-description.txt`. Preserve the supplied description's wording and content; this must be the first vacancy-specific artifact created, before reading `cv/master_cv.tex` or beginning tailoring analysis.
+2. Read the saved `position-description.txt` and `cv/master_cv.tex` in full.
+3. Extract core responsibilities, mandatory requirements, preferred requirements, ATS keywords, and the employer's actual priority.
+4. Map each important requirement to **strong match**, **partial match**, or **gap/unsupported**.
+5. Identify adjacent technologies or skills already supported by the master but not explicitly emphasized. Ask the user about each high-value plausible omission before claiming it in the CV. Do not ask about clearly unrelated requirements; classify those as gaps.
+6. Copy the complete body of `cv/master_cv.tex` into the vacancy directory as `master-tailored-body.tex` and tailor only that copy. Never overwrite `cv/master_cv.tex`.
+7. Rephrase, compress or expand, or highlight the relevant parts of the supported material to emphasize the strongest matches. Preserve factual meaning, existing macros, section structure, useful bold emphasis, and keep one-page density.
    You can adjust job titles based on the position. For example: Research Engineer (Data Science Research Group) is a so called Wissenschaftlicher Mitarbeiter, which can correspond to Research Scientist or Research Assitant based on the best CV-poistion match.
    Or "Freelance Computer Vision Engineer" cab become "Freelance Developr" if the target position is more focused on backend for example.
-7. Invoke `$render-latex` (the local skill at `.agents/skills/render-latex/SKILL.md`) with the exact body path, vacancy directory, and standard document name `CV_Kostiantyn_Pysanyi`. Let its deterministic render script merge the stable header, tailored body, and final `\end{document}` into a self-contained source. Do not reproduce its merge, compiler discovery, page-count, or file-versioning logic.
-8. `$render-latex` must compile from the vacancy directory, return actionable LaTeX errors for repair, and rerender until successful. Use the exact `.tex` and `.pdf` paths it returns; when the standard artifacts are locked, these may use a `_versionN` suffix. Do not finalize or clean versioned artifacts until the user clearly accepts a version.
-9. Check the PDF page count and, when rendering tools are available, inspect for overflow, clipping, broken glyphs, or an unintended second page.
-10. Return the match assessment, complete merged tailored LaTeX source, and exact generated PDF path. Do not return only the body fragment or a diff. After the user accepts a version, invoke `$render-latex` finalization and return the standard `CV_Kostiantyn_Pysanyi.pdf` path plus any cleanup status.
+8. Invoke `$render-latex` (the local skill at `.agents/skills/render-latex/SKILL.md`) with the exact body path, vacancy directory, and standard document name `CV_Kostiantyn_Pysanyi`. Let its deterministic render script merge the stable header, tailored body, and final `\end{document}` into a self-contained source. Do not reproduce its merge, compiler discovery, page-count, or file-versioning logic.
+9. `$render-latex` must compile from the vacancy directory, return actionable LaTeX errors for repair, and rerender until successful. Use the exact `.tex` and `.pdf` paths it returns; when the standard artifacts are locked, these may use a `_versionN` suffix. Do not finalize or clean versioned artifacts until the user clearly accepts a version.
+10. Check the PDF page count and, when rendering tools are available, inspect for overflow, clipping, broken glyphs, or an unintended second page.
+11. Return the match assessment, complete merged tailored LaTeX source, and exact generated PDF path. Do not return only the body fragment or a diff. After the user accepts a version, invoke `$render-latex` finalization and return the standard `CV_Kostiantyn_Pysanyi.pdf` path plus any cleanup status.
 
 ### Pagination and experience preservation
 

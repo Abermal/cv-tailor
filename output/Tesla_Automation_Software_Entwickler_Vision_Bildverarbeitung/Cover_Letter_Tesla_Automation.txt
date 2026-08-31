@@ -1,0 +1,30 @@
+Kostiantyn Pysanyi
+Leipzig, Deutschland
+kostiantyn.pysanyi@gmail.com
++49 1525 8447880
+
+Tesla Automation GmbH
+Recruiting-Team
+Rudolf-Diesel-Straße 14
+54595 Prüm
+Deutschland
+
+28. August 2026
+
+Bewerbung als Software Entwickler – Vision / Bildverarbeitung (m/w/d), Req. ID 255512
+
+Sehr geehrtes Recruiting-Team,
+
+ich bewerbe mich als Software Entwickler – Vision / Bildverarbeitung, weil mich 2D- und 3D-Vision-Systeme besonders dann reizen, wenn sie nicht beim Prototyp enden, sondern zuverlässig als Teil einer komplexen Anlage funktionieren müssen. Die Verbindung aus Algorithmen, Inbetriebnahme sowie Messdaten- und Fehleranalyse entspricht genau der Art von Entwicklungsarbeit, die ich gerne über den gesamten Lebenszyklus begleite. Ich bin überzeugt, dass ich mit meiner Erfahrung in End-to-End-Bildverarbeitung und produktionsnaher Integration einen direkten Beitrag zu Tesla Automation leisten kann.
+
+Bei RAYLYTIC entwickelte ich weitgehend eigenständig eine 2D-3D-Registrierung zur Bestimmung der Implantatlage aus Röntgenbildern. Eine über Jahre veränderte und nicht mehr zuverlässig nutzbare Implementierung ersetzte ich durch ein modulares, wartbares System – von Mesh-Verarbeitung und Alignment über Validierung bis zum produktiven Deployment. Die neue Pipeline erhöhte die Akzeptanzrate um 45 % und senkte den Fehler um 15 %. Sie wurde auf der EFORT 2026 vorgestellt und wird derzeit in klinischen Studien eingesetzt. Da Compliance-Vorgaben eine Cloud-Lösung ausschlossen, spezifizierte ich außerdem einen lokalen Multi-GPU-Produktionsserver und arbeitete eng mit Hardware-Spezialisten zusammen.
+Darüber hinaus entwickelte ich produktionsreife Modelle für Segmentierung, Detektion und Klassifikation von Röntgenbildern und etablierte reproduzierbare Daten-, Experiment- und Evaluationsabläufe. In einem freiberuflichen Projekt implementierte ich eine tiefenkartenbasierte Erkennung von Kameraverdeckungen für ein Echtzeit-Retail-Sicherheitssystem. Diese Aufgaben haben meinen Blick dafür geschärft, Bildverarbeitungssoftware nicht isoliert, sondern im Zusammenspiel mit Sensordaten, Laufzeitverhalten und dem Gesamtsystem zu entwickeln.
+
+Auch die fachübergreifende Zusammenarbeit ist mir vertraut. In einem von mir geleiteten BMBF-Projekt verfasste ich Berichte, präsentierte komplexe technische Inhalte und diskutierte sie mit Projektpartnern, darunter Ärztinnen und Ärzte der Charité. Mit Deutsch auf C1-Niveau und Englisch auf C2-Niveau kommuniziere ich sicher in beiden Sprachen.
+An Tesla Automation interessiert mich besonders die Nähe zwischen Vision-Software, Maschine und realem Produktionsprozess. Gerne möchte ich meine Erfahrung einbringen, um Bildverarbeitungslösungen vom Konzept bis zum zuverlässigen Betrieb weiterzuentwickeln.
+
+Ich freue mich darauf, meine Erfahrungen und Motivation in einem persönlichen Gespräch näher zu erläutern.
+
+Mit freundlichen Grüßen
+
+Kostiantyn Pysanyi
