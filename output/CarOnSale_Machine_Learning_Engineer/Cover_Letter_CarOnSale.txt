@@ -1,0 +1,26 @@
+Kostiantyn Pysanyi
+Leipzig, Germany
+kostiantyn.pysanyi@gmail.com
++49 1525 8447880
+
+Castle Tech GmbH / CarOnSale
+Hiring Team
+Hauptstraße 27, Haus 9 Aufgang N
+10827 Berlin
+
+18 September 2026
+
+Application for Machine Learning Engineer (m/f/x)
+
+Dear CarOnSale Hiring Team,
+
+I am applying for the Machine Learning Engineer role because I enjoy turning experimental models into software that can be evaluated, deployed, and maintained with confidence. Making a common ML platform work well as more models depend on it is particularly appealing to me. I believe my experience in production model serving, reproducible experimentation, and containerized deployment would help me contribute to that work at CarOnSale.
+
+At RAYLYTIC, I built and deployed an end-to-end system for estimating implant poses from X-rays. Replacing an unreliable earlier implementation meant paying close attention to modularity and maintainability, as well as model quality. The resulting pipeline used GPU-accelerated Docker containers and Prefect orchestration, improved acceptance by 45%, and reduced error by 15%. I also implemented data versioning, experiment tracking, and automated evaluation with DVC and MLflow, and migrated segmentation model serving to a centralized Triton REST API, cutting latency by 50%. My deployment experience also includes an X-ray classification model on Amazon SageMaker AI.
+
+CarOnSale appeals to me because pricing intelligence is part of a product that dealers use to make commercial decisions. As your model portfolio grows, careful evaluation and dependable inference will matter to the people using those outputs. I would welcome the opportunity to bring my production ML experience to that work. I am ready to relocate to Berlin and work with the team under your three-day office arrangement.
+
+I would be pleased to discuss how my background could contribute to CarOnSale.
+
+Sincerely,
+Kostiantyn Pysanyi

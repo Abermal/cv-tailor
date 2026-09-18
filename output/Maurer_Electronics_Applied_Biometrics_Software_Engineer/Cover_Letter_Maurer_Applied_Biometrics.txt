@@ -1,0 +1,29 @@
+Kostiantyn Pysanyi
+Leipzig, Deutschland
+kostiantyn.pysanyi@gmail.com
++49 1525 8447880
+
+Maurer Electronics GmbH
+Recruiting-Team
+Hanauer Straße 1
+80992 München
+Deutschland
+
+3. September 2026
+
+Bewerbung als Applied Biometrics Software Engineer (m/w/d)
+
+Sehr geehrtes Recruiting-Team,
+
+ich bewerbe mich als Applied Biometrics Software Engineer, weil mich die Entwicklung von Modellen für 2D- und 3D-Kameradaten besonders dann reizt, wenn aus experimentellen Ansätzen zuverlässige Software für sicherheitskritische Anwendungen entstehen soll. Die Verbindung von datenorientierter Modellentwicklung, empirischer Validierung und Integration in bestehende Systeme entspricht meiner bisherigen Arbeit. Dafür bringe ich Erfahrung in Computer Vision, Deep Learning und der produktiven Umsetzung bildbasierter ML-Verfahren mit.
+
+Bei RAYLYTIC entwickelte, validierte und deployte ich weitgehend eigenständig eine durchgängige 2D–3D-Registrierung zur Bestimmung der Implantatlage aus Röntgenbildern. Die Pipeline umfasste Mesh-Verarbeitung und Alignment, erhöhte die Akzeptanzrate um 45 % und senkte den Fehler um 15 %. Sie wurde auf der EFORT 2026 vorgestellt und wird in laufenden klinischen Studien eingesetzt. Darüber hinaus entwickelte ich produktionsreife Segmentierungs-, Detektions- und Klassifikationsmodelle und etablierte versionierte Datenbestände, reproduzierbare Experimente und automatisierte Evaluation.
+
+Für ein Detektionsmodell mit wenigen annotierten Aufnahmen gestaltete ich Augmentationen gezielt anhand der Datenverteilung und nutzte zusätzliche unbeschriftete Daten für selbstüberwachtes Vortraining. Ich verbesserte zudem den Annotationsprozess mit CVAT, annotierte selbst und betreute einen Praktikanten bei der Arbeit mit dem Tool. In einem freiberuflichen Projekt entwickelte ich außerdem eine tiefenkartenbasierte Erkennung von Kameraverdeckungen für ein Echtzeit-Retail-Sicherheitssystem. Diese Erfahrungen haben mir gezeigt, wie eng Datenqualität, Versuchsdesign und robustes Laufzeitverhalten zusammenhängen.
+
+An Maurer Electronics interessiert mich besonders, dass Forschung und Softwareentwicklung unmittelbar in Systeme zur Erfassung und Verifikation von Identitätsdokumenten einfließen. Die Zusammenarbeit verschiedener technischer Disziplinen von der Konzeptphase bis zur Umsetzung in einer Maschine passt gut zu meiner Arbeitsweise. Gern möchte ich meine Erfahrung mit 2D-/3D-Bildverarbeitung und reproduzierbarer Modellentwicklung einbringen, um biometrische Verfahren methodisch sauber zu untersuchen und zuverlässig in reale Systeme zu überführen.
+
+Ich freue mich darauf, meine Erfahrung und Motivation in einem persönlichen Gespräch näher zu erläutern.
+
+Mit freundlichen Grüßen
+Kostiantyn Pysanyi

@@ -1,0 +1,28 @@
+Kostiantyn Pysanyi
+Leipzig, Deutschland
+kostiantyn.pysanyi@gmail.com
++49 1525 8447880
+
+Leica Microsystems GmbH
+Recruiting-Team
+Ernst-Leitz-Strasse 17-37
+35578 Wetzlar
+
+3. September 2026
+
+Bewerbung als AI Software Engineer (d/w/m), Job ID R1315479
+
+Sehr geehrtes Recruiting-Team,
+
+ich bewerbe mich als AI Software Engineer, weil mich die Verbindung aus anspruchsvoller Bildanalyse und Software für moderne Mikroskopiesysteme besonders anspricht. Modelle nicht nur zu entwickeln, sondern sie von der Datenaufbereitung bis zur validierten, verlässlichen Anwendung zu begleiten, prägt meine bisherige Arbeit. Dafür bringe ich Erfahrung mit Deep Learning, Computer Vision sowie der produktiven Umsetzung medizinischer und mikroskopischer Bildverarbeitung mit.
+
+Bei RAYLYTIC entwickelte ich im dreijährigen Photiomics-Projekt 3D-Instanzsegmentierung und Registrierungsverfahren für Lichtblattmikroskopie-Aufnahmen in der Leberkrebsforschung. Dabei arbeitete ich mich erfolgreich in ein für mich neues zellbiologisches Anwendungsgebiet ein und führte das Projekt zum Abschluss. Darüber hinaus entwickelte, validierte und deployte ich weitgehend eigenständig eine durchgängige 2D-3D-Registrierungslösung zur Bestimmung der Implantatlage aus Röntgenbildern. Das System wird in laufenden klinischen Studien eingesetzt; die Ergebnisse wurden auf der EFORT 2026 vorgestellt.
+
+Zu meiner Arbeit gehörten außerdem produktionsreife Segmentierungs-, Detektions- und Klassifikationsmodelle, versionierte Datenbestände, reproduzierbare Experimente und automatisierte Evaluation. Ich setzte Modelle containerisiert und GPU-beschleunigt um und migrierte Modell-Serving auf eine zentrale Triton-basierte REST-Schnittstelle. In einem von mir geleiteten BMBF-Projekt verfasste ich Berichte, präsentierte komplexe Forschungsthemen und stimmte mich auf Deutsch mit Projektpartnern ab, darunter Ärztinnen und Ärzte der Charité. Mit C1-Deutsch und C2-Englisch kommuniziere ich sicher in beiden Sprachen.
+
+An Leica Microsystems reizt mich, dass Software hier unmittelbar Teil von Mikroskopiesystemen wird, mit denen Forschungsteams neue biologische und medizinische Erkenntnisse gewinnen. Die Schnittstelle zwischen Optik, Life Sciences und verlässlicher AI-Software passt sehr gut zu meiner Erfahrung. Gern möchte ich dazu beitragen, Bildanalysemodelle methodisch sauber zu entwickeln und stabil in die Leica Application Suite zu integrieren.
+
+Ich freue mich darauf, meine Erfahrung und Motivation in einem persönlichen Gespräch näher zu erläutern.
+
+Mit freundlichen Grüßen
+Kostiantyn Pysanyi

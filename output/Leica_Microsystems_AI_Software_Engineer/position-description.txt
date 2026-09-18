@@ -1,0 +1,38 @@
+AI Software Engineer (d/w/m)
+Leica Microsystems  Mannheim, Germany  CategoryEngineering  Job IdR1315479
+This job available in 2 locations  Mannheim, Germany  Wetzlar, Germany
+
+Share via LinkedIn
+Share via Facebook
+Share via twitter
+Share via email
+ Back to search resultsNext job 
+Seit über 170 Jahren gestaltet Leica Microsystems mit bahnbrechenden optischen und digitalen Lösungen die Zukunft der Mikroskopie mit. Als ein global führendes Unternehmen setzen wir auf kontinuierliche Verbesserung, um unsere Kunden zu begeistern und die beste Arbeitsumgebung für unsere Mitarbeitenden zu schaffen. Kundenorientierung, Innovation und Teamarbeit sind der Kern unserer Kultur und die Grundlage unseres Erfolgs.
+Möchten Sie Teil eines Unternehmens sein, dessen Produkte in der Spitzenforschung auf der ganzen Welt zum Einsatz kommen? Werden Sie Teil von Leica Microsystems und engagieren Sie sich gemeinsam mit uns für brillante Lösungen und Erkenntnisse.
+Leica Microsystems ist eines der 10 Life Sciences-Unternehmen von Danaher. Gemeinsam beschleunigen wir die Entdeckung, Entwicklung und Bereitstellung von Lösungen, die die menschliche Gesundheit schützen und verbessern.
+
+Wir suchen Sie im Bereich R&D Software an unserem Standort (onsite) in Mannheim oder Wetzlar als
+
+AI Software Engineer (d/w/m)
+
+Werden Sie Teil unseres Teams und gestalten Sie die Zukunft der digitalen Mikroskopie aktiv mit. Sie entwickeln auf Basis der
+Leica Application Suite innovative AI-gestützte Software-Lösungen und arbeiten in einem spannenden Umfeld an Technologien,
+die die Mikroskopie von morgen definieren. Eine ausgeprägte Neugier und die Freude daran, Neues zu erkunden, sind für uns
+dabei genauso wichtig wie technische Exzellenz.
+
+IHR VERANTWORTUNGSBEREICH
+
+Entwicklung innovativer AI-gestützter Softwarelösungen für Mikroskopie-Anwendungen, einschließlich bildverarbeitender Verfahren und agentenbasierter Ansätze
+
+Konzeption, Tuning, Optimierung und produktive Bereitstellung von Modellen für Anwendungen in der Mikroskopie.
+Verantwortung für den gesamten Software-Lebenszyklus: von der Anforderungsanalyse über Datenaufbereitung, Modellentwicklung und Implementierung bis hin zu Integration, Validierung und Dokumentation
+Sicherstellung hoher Qualitätsstandards in enger Zusammenarbeit mit dem Quality-Assurance-Team
+Koordination und Abstimmung der Entwicklungsaktivitäten innerhalb des Projektteams
+IHR PROFIL
+
+Abgeschlossenes Studium der Informatik, Ingenieur- oder Naturwissenschaften sowie mehrjährige Berufserfahrung in moderner Softwareentwicklung mit klarem Schwerpunkt auf AI, Machine Learning und Deep Learning
+
+Fundierte Erfahrung mit Deep-Learning-Frameworks (z. B. PyTorch, TensorFlow), Computer-Vision-Methoden sowie der Integration von LLMs und modernen AI-Frameworks (APIs, Vektor-Datenbanken, Agenten); Kenntnisse klassischer Bildverarbeitung von Vorteil
+Sehr gute Kenntnisse in Python und gängigen Bibliotheken für Datenverarbeitung, Automatisierung und Modell-Deployment; Erfahrungen in C# und C++ sind von Vorteil
+Hintergrund oder nachweisliches Interesse in Mikroskopie, Life Sciences, Biologie oder Pharma ist ein deutlicher Pluspunkt
+Sehr gute Kommunikationsfähigkeiten in Deutsch und Englisch, Teamorientierung sowie selbstständige und zielgerichtete Arbeitsweise

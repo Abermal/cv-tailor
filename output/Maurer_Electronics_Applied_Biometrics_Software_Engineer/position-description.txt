@@ -1,0 +1,36 @@
+Applied Biometrics Software Engineer (m/w/d)
+Unternehmen: Maurer Electronics GmbH
+Standort: München
+Vertragsart: Unbefristeter Vertrag
+Jetzt bewerben
+
+Gestalten Sie mit uns die digitale Zukunft! Wir suchen Persönlichkeiten mit Teamgeist, die unsere Leidenschaft für den Schutz von Identitäten und Daten teilen, vorausschauend denken und gemeinsam mit uns an sicheren Digitalisierungslösungen arbeiten wollen. Wir sind überzeugt, dass Veränderungen neue Chancen für Entwicklung und Innovation mit sich bringen. Wir bieten Ihnen ein attraktives Arbeitsumfeld mit vielfältigen Karrieremöglichkeiten und eine sichere berufliche Zukunft.
+
+Zum nächstmöglichen Zeitpunkt suchen wir Sie als Applied Biometrics Software Engineer (m/w/d) für den Standort München
+
+Ihr Aufgabenbereich
+Planung, Erstellung und Qualitätssicherung von Trainings-, Validierungs- und Testdatensätzen für biometrische Anwendungen
+Entwicklung, Training, Optimierung und Validierung von KI- und Machine-Learning-Modellen zur Analyse von 2D- und 3D-Kameradaten
+Durchführung von Machbarkeitsanalysen, Entwicklung von Prototypen sowie empirische Bewertung und Weiterentwicklung biometrischer Verfahren
+Integration, Implementierung und kontinuierliche Optimierung von KI-Algorithmen in bestehende Softwarelösungen
+Analyse und Aufbereitung komplexer Datenbestände zur Identifikation und Bewertung relevanter biometrischer Merkmale
+Überführung von Forschungsergebnissen und prototypischen Ansätzen in robuste und anwendungsorientierte Softwarelösungen
+Aktiver Austausch mit Hochschulen, Forschungseinrichtungen und Industriepartnern sowie Mitwirkung an nationalen und internationalen Forschungs- und Entwicklungsprojekten
+
+Ihr Profil
+Erfolgreich abgeschlossenes Studium der Informatik, Mathematik, Elektrotechnik, Data Science oder einer vergleichbaren Fachrichtung 
+Fundierte Kenntnisse in den Bereichen Künstliche Intelligenz, Machine Learning und Computer Vision
+Praktische Erfahrung in der Entwicklung und Implementierung von Software, idealerweise mit Python und/oder C++
+Erfahrung in der Entwicklung, dem Training und der Evaluierung von Machine-Learning-Modellen, vorzugsweise für Bild- oder Sensordaten
+Kenntnisse oder praktische Erfahrungen im Bereich Biometrie, beispielsweise Gesichts-, Iris-, Fingerabdruck- oder 3D-Biometrie, sind von Vorteil
+Erfahrung in der Durchführung von Experimenten, Machbarkeitsanalysen und der empirischen Bewertung technischer Verfahren
+Selbstständige, strukturierte und lösungsorientierte Arbeitsweise sowie Freude an der Zusammenarbeit in interdisziplinären Teams
+
+Ihre Vorteile
+Gemeinsam mehr erreichen: toller Teamspirit in einem kompetenten und zukunftssicheren Arbeitsumfeld mit einzigartigen Projekten
+Attraktive Arbeitsbedingungen: ausgewogene Balance zwischen Beruf und Privatleben dank flexibler Arbeitsmodelle und -zeiten und 30 Tagen Urlaub im Jahr
+Moderne Arbeitsausstattung: top Equipment, agile Entwicklungsmethoden mit modernem Tech Stack und innovativen Kollaborationstools
+Persönliche Entwicklung: individuelle Weiterbildungsmöglichkeiten sowie Fach- und Führungskräfteprogramme
+Optimale Verkehrsanbindung: attraktiver Standort in zentraler Lage
+Angebote zum Gesundbleiben: Sportkooperationen, Präventionskurse und Laufevents
+Weitere Extras: betriebliche Altersvorsorge, unterstützende Maßnahmen bei der Kinderbetreuung und der Pflege von Angehörigen
