@@ -1,0 +1,29 @@
+Kostiantyn Pysanyi
+Leipzig, Germany
+kostiantyn.pysanyi@gmail.com
++49 1525 8447880
+
+flaschenpost SE
+Recruiting-Team
+Sentmaringer Weg 21
+48151 Münster
+
+28. August 2026
+
+Bewerbung als Machine Learning Engineer (m/w/d) – MLOps & Software Engineering
+
+Sehr geehrtes Recruiting-Team,
+
+ich bewerbe mich als Machine Learning Engineer, weil mich die Aufgabe reizt, Modelle aus der Entwicklung in stabile, wartbare Services zu überführen, die jeden Tag verlässlich funktionieren müssen. Bei Tourenplanung und operativen Schätzungen werden technische Entscheidungen unmittelbar in der Praxis sichtbar. Für diese Verbindung aus Machine Learning, Backend-Entwicklung und Betrieb bringe ich Erfahrung mit produktiven ML-Systemen, Daten- und Trainingspipelines sowie CI/CD mit.
+
+Bei RAYLYTIC ersetzte ich für eine 2D–3D-Registrierung zur Implantatlagenschätzung eine über Jahre gewachsene, nicht mehr zuverlässig nutzbare Implementierung durch ein modulares und wartbares System. Ich entwickelte die Pipeline von der Daten- und Mesh-Verarbeitung bis zur containerisierten Anwendung, setzte den vollständigen CI/CD-Zyklus um und bereitete den Betrieb auf einem lokalen Multi-GPU-Server vor. Für reproduzierbare Entwicklung verband ich DVC zur Datenversionierung mit MLflow für Experimenttracking und automatisierter Evaluation. Zudem migrierte ich das Serving eines Segmentierungsmodells auf eine zentrale Triton-basierte REST-API und halbierte dabei die Latenz. Diese Arbeit hat mir gezeigt, wie wichtig klare Strukturen, nachvollziehbare Pipelines und belastbare Schnittstellen sind, wenn ML nicht im Prototyp bleiben soll.
+
+Auch Daten- und Trainingsworkflows kenne ich aus unterschiedlichen Kontexten: In einer Forschungsgruppe entwickelte ich Pipelines für einen Ticket-Routing-Klassifikator, die unstrukturierte Texte in Features überführten und wiederholte Dataset-Updates und Evaluationen vereinfachten. Mit Python arbeite ich professionell; Cloud- und Deployment-Erfahrung bringe ich aus AWS-, Docker- und Kubernetes-Umgebungen mit. Deutsch nutze ich mit C1-Niveau und bestandenem TestDaF sicher im professionellen Alltag, Englisch ebenso im technischen Kontext.
+
+An flaschenpost reizt mich besonders, dass Wartbarkeit, Reproduzierbarkeit und ein reibungsloses Zusammenspiel von Entwicklung und Betrieb zentrale Bestandteile der ML-Arbeit sind. Solche technische Reife ist für mich ein professioneller Maßstab, an dem ich meine Arbeit langfristig ausrichten möchte. Meine Erfahrung mit produktiven ML-Systemen und nachvollziehbaren Pipelines kann ich dabei konkret einbringen.
+
+Ich freue mich darauf, meine Motivation und meinen möglichen Beitrag persönlich zu erläutern.
+
+Mit freundlichen Grüßen
+
+Kostiantyn Pysanyi
