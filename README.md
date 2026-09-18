@@ -20,10 +20,10 @@ Generated vacancy files stay under `output/`. Temporary validation images and La
 ## Requirements
 
 - Codex opened with this repository as its working directory
-- PowerShell 5.1 or newer
-- A working `pdflatex` installation, such as MiKTeX
+- Python 3.10 or newer on Linux, or PowerShell 5.1 or newer on Windows
+- A working `pdflatex` installation, such as TeX Live on Linux or MiKTeX on Windows
 
-The rendering script resolves `pdflatex` in this order: an explicit path, the `CV_PDFLATEX` environment variable, `PATH`, and the standard local MiKTeX installation path.
+The rendering script resolves `pdflatex` in this order: an explicit path, the `CV_PDFLATEX` environment variable, and `PATH`. The Windows script also checks the standard local MiKTeX installation path.
 
 ## Tailor a CV
 
@@ -69,6 +69,25 @@ The finalizer publishes the latest successfully compiled version as `CV_Kostiant
 
 The deterministic renderer can also be called directly:
 
+On Linux:
+
+```bash
+python3 .agents/skills/render-latex/scripts/render_cv.py \
+  --body-path output/<vacancy-slug>/master-tailored-body.tex \
+  --output-directory output/<vacancy-slug> \
+  --document-name CV_Kostiantyn_Pysanyi
+```
+
+Finalize the latest accepted version with:
+
+```bash
+python3 .agents/skills/render-latex/scripts/finalize_cv.py \
+  --output-directory output/<vacancy-slug> \
+  --document-name CV_Kostiantyn_Pysanyi
+```
+
+On Windows:
+
 ```powershell
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\.agents\skills\render-latex\scripts\render_cv.ps1" `
   -BodyPath ".\output\<vacancy-slug>\master-tailored-body.tex" `
@@ -84,7 +103,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\.agents\skills\render
   -DocumentName "CV_Kostiantyn_Pysanyi"
 ```
 
-Both scripts return structured JSON. Page count is read from the LaTeX log, so no Python packages or separate PDF parsing library are needed.
+All scripts return structured JSON. Page count is read from the LaTeX log, so no third-party Python packages or separate PDF parsing library are needed.
 
 ## Data integrity
 
