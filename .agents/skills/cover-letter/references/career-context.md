@@ -1,21 +1,31 @@
 # Career Context
 
-This file contains user-provided context for writing cover letters. It complements, but does not replace, `cv/master_cv.tex`.
+This file contains user-provided context for writing cover letters. It complements, but does not replace, `cv/master_cv.tex`. Use the parent `SKILL.md` for structure and voice; select the background below according to its relevance to the role.
 
 ## General technical and domain motivation
 
 - The candidate is broadly motivated by applying machine learning and computer vision to real-world problems and by developing systems that work reliably beyond a research prototype.
 - For engineering-heavy roles, the candidate is particularly motivated by mature, reliable systems where maintainability, reproducibility, and a smooth development and operations workflow are treated as core engineering outcomes. The candidate sees this level of technical maturity as an important professional standard to pursue throughout their career.
-- Use that stable motivation as the starting point, then connect it to a technical challenge that is genuinely specific to the position. Do not present "real-world ML" alone as if it distinguished one vacancy from another.
+- The candidate also values meaningful ownership, the ability to move work forward quickly, and a direct, lively working environment. These are possible motivations to select when supported by the advertised work, not preferences to attribute automatically to every startup role.
+- Connect a relevant motivation to something specific about the position. "Real-world ML" alone does not distinguish one vacancy from another.
 - A meaningful domain can deepen the motivation. Medicine and climate-related work are especially inspiring to the candidate. Mention this briefly and in ordinary language when relevant; do not manufacture mission rhetoric or make every employer sound purpose-driven.
-- The preferred opening logic is: "I am applying for this role because..." followed by the technical work that makes the position interesting; optionally add why the domain matters; then explain why the candidate's experience is relevant and what they can contribute.
 
 ## Medical-imaging trajectory
 
+- Medical imaging has been a recurring field since the candidate's first university projects: CT imaging, then X-ray work, and later cellular imaging. For relevant roles, this can show breadth across modalities and lasting interest. Use a brief trajectory when it strengthens the argument, rather than recounting every project. The relevant experience spans multiple roles and studies; do not reduce it to "my three years."
 - The candidate's first substantial projects during their studies were carried out in cooperation with a local hospital. Working with real doctors was highly motivating and established a long-term interest in clinically useful machine learning.
 - The thesis focused on machine learning for orthopedics, especially anatomical landmark localization. The work improved the previous model by 30% and involved collaboration with clinical specialists in spine care. It was presented at DWG 2023.
 - The candidate then continued in medical imaging through the three-year BMBF Photiomics project. They completed the work successfully despite not having a prior background in cellular science.
 - The 2D/3D registration system for implant pose estimation was developed, validated, and deployed almost completely by the candidate. It was presented at EFORT 2026 and is used at scale in current clinical trials.
+- For clinically focused roles, connect the motivation to real collaboration with clinicians, validation, and use of the systems. For research-focused work, experimentation and learning across disciplines may be stronger evidence; for engineering-focused work, the system design and deployment context below may matter more. Select relevant examples rather than treating this trajectory as a mandatory project list.
+
+## X-ray modality expertise
+
+- The candidate has broad professional experience with X-ray image analysis, including classification, instance segmentation, object detection, anatomical landmark localization, and 2D/3D registration for implant pose estimation.
+- Through this work, the candidate has developed a deep practical understanding of the X-ray modality and its associated image-analysis challenges. For relevant roles, convey this breadth through concrete examples rather than mentioning only the registration pipeline or presenting a generic computer-vision background.
+- The 2D/3D registration project required implementing a renderer that simulates X-ray images. The candidate describes this as work undertaken within the project ("we implemented"); do not imply sole authorship of the renderer.
+- Developing the X-ray simulation for registration gave the candidate familiarity with the graphics, geometry, and physical principles behind X-ray image formation. Use this as a concrete example of understanding how the images are formed, alongside experience analyzing them. Do not invent specific rendering algorithms, physical models, or implementation details.
+- This expertise comes from medical X-ray work. It is relevant transferable experience for industrial X-ray inspection, but does not establish prior industrial defect-detection experience.
 
 ## Engineering maturity of the 2D/3D project
 
@@ -53,21 +63,7 @@ This file contains user-provided context for writing cover letters. It complemen
 
 > Deutsch lerne ich seit meinem zwölften Lebensjahr und lebe seit sieben Jahren in Deutschland. Deutsch ist nicht meine Muttersprache, doch mit C1-Niveau und bestandenem TestDaF arbeite und kommuniziere ich sicher auf hohem professionellen Niveau. In einem von mir geleiteten BMBF-Projekt verfasste ich Berichte, vermittelte komplexe Forschungsthemen in Präsentationen und diskutierte sie mit Projektpartnern, darunter Ärztinnen und Ärzte der Charité. Auch im täglichen Austausch mit deutschen Kolleg:innen und Freund:innen ist Deutsch für mich seit Jahren selbstverständlich.
 
-## Writing guidance
-
-- Present the trajectory differently depending on the position. Research-heavy roles should foreground clinical questions, experimentation, learning across disciplines, and validation. Engineering-heavy roles should foreground maintainability, deployment, infrastructure, compliance constraints, and reliable production use.
-- Keep the tone personal but restrained. The goal is to show why the work matters and why the role is a credible next step, not to repeat the CV.
-- For a direct opening, the candidate prefers the role's technical challenge first, followed by an optional brief mission or domain reason when it is genuinely motivating, then "I believe my experience..." and a clear contribution statement. Do not reduce the candidate's fit to "my three years" because the relevant experience comes from several roles and studies.
-- Avoid employer-as-benefit language such as "a strong next step for me." Center what is compelling about the work and what the candidate can contribute.
-- Do not volunteer weak-point disclaimers about missing modalities, tracking, or sensor-fusion experience. Describe relevant transferable experience and genuine interest without implying experience that is not present.
-- Avoid generic package lists in the letter. Prefer concrete architectures, data decisions, annotation ownership, and deployment constraints tied to specific work.
-
 ## MRI and volumetric imaging context
 
 - The candidate has wanted to gain hands-on experience with MRI for a long time and is interested in its modality-specific challenges, including sequence-dependent appearance, variable contrast, motion, and real-time constraints.
-- The candidate has worked with anisotropic 3D light-sheet microscopy data. This provides transferable experience with voxel-based volumetric data, differences in spatial resolution, and 3D image processing, but should not be presented as equivalent to MRI expertise. Acknowledge the need to learn MRI-specific physics and artifacts.
-
-## Role-specific selection
-
-- For a medical-imaging research or medtech role such as Nano4Imaging's AI Research Engineer, lead with the early hospital collaborations, the lasting motivation of working on clinically meaningful problems, the orthopedic thesis, the three-year Photiomics project, and the clinically deployed 2D/3D registration work. Mention EFORT 2026 and use of the system in current clinical trials where relevant.
-- Do not import the legacy-replacement, backend architecture, hardware-specification, or compliance-deployment story into that kind of letter unless the vacancy explicitly emphasizes those responsibilities.
+- The candidate has worked with anisotropic 3D light-sheet microscopy data. This provides transferable experience with voxel-based volumetric data, differences in spatial resolution, and 3D image processing, but does not establish MRI expertise. MRI-specific physics and artifacts would require learning; mention this boundary only when needed to avoid a misleading equivalence.
