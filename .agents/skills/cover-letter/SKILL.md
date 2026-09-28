@@ -11,7 +11,7 @@ Write in the candidate's voice: a thoughtful engineer using clear, natural, prof
 
 1. Read the complete vacancy, `cv/master_cv.tex`, and [career context](references/career-context.md). The context holds background, motivations, and project-specific interpretation; this skill defines the letter's structure and voice.
 2. Treat the master CV as the factual source of truth for CV facts. Use the additional user-provided context only as recorded, without strengthening it into unsupported responsibilities or achievements. Flag source conflicts; omit uncertain details or ask for confirmation when they are essential.
-3. Never invent experience, seniority, ownership, metrics, clinical adoption, collaborators, publications, implementation details, credentials, or motivations. Preserve chronology and distinguish personal contributions from team work, and hands-on implementation from study or familiarity.
+3. Never invent experience, seniority, ownership, metrics, clinical adoption, collaborators, publications, implementation details, credentials, or motivations. Distinguish personal contributions from team work, and hands-on implementation from study or familiarity. Preserve chronology; use "alongside" only for genuinely concurrent work.
 4. For a new modality, domain, or method, connect relevant transferable experience and genuine interest without implying direct expertise. Do not list missing qualifications; state a knowledge boundary neutrally only when needed to avoid a misleading claim.
 
 ## Using the vacancy
@@ -40,7 +40,7 @@ Use two or three short sentences to explain what genuinely appeals about this co
 
 Select and connect motivations the candidate has actually expressed. Interests in meaningful products, mature engineering, or ownership are valid; do not invent enthusiasm to mirror the vacancy. If little is known about the company, make a modest connection to the advertised work.
 
-Do not describe the role as "the next step," "a strong next step for me," or a career stepping stone. Professional aspirations are welcome when tied to the work and contribution; avoid presenting the employer mainly as a means of career advancement.
+Do not describe the role as a "next step" (including "a strong next step for me") or a career stepping stone. Professional aspirations are welcome when tied to the work and contribution; avoid presenting the employer mainly as a means of career advancement.
 
 ### Relevant additional information and closing
 
