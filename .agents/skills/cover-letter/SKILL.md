@@ -26,7 +26,7 @@ Usually write about 250--350 words in three or four compact body paragraphs, fol
 
 ### 1. Opening: a direct statement of fit
 
-State the role and why the candidate believes their experience makes them well suited to it, usually in one or two sentences. For example: "I am applying for [role] because I believe my experience in computer vision and software engineering makes me well suited to the position." Adapt the substance to the actual fit; no fixed wording or number of qualifications is required. Leave the developed explanation of motivation for the final body paragraph.
+State the role and why the candidate believes their experience makes them well suited to it in one connected sentence by default. For example: "I am applying for [role] because I believe my experience in computer vision and software engineering makes me well suited to the position." Use a second sentence only when it adds a distinct, concrete point or makes a long opening easier to read; do not leave "I am applying for [role]" as a standalone sentence followed by a generic fit claim. Adapt the substance to the actual fit; no fixed wording or number of qualifications is required. Leave the developed explanation of motivation for the final body paragraph.
 
 ### 2. Evidence: substantiate the claim
 
