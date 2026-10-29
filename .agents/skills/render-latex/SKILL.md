@@ -7,6 +7,14 @@ description: Compile and validate tailored LaTeX CVs and cover letters, create n
 
 Build, version, validate, and finalize a self-contained vacancy-specific CV.
 
+## CV spacing defaults and fitting
+
+The approved defaults live in `cv/header_cv.tex`: an additional top-margin offset of `-0.12in`, a `-8pt` gap adjustment after the contact block, section spacing of `5pt` before and after, and a first-page height allowance of `0.35in`. Use the shared header without repeating these adjustments in the tailored body. Keep the standard fonts, font sizes, line spacing, and bullet macros.
+
+When a CV overflows or leaves excessive whitespace, adjust section spacing first, in small increments (for example, 1pt before and after), then rerender and inspect. Use vacancy-local overrides for fitting; change the shared defaults only at the user's request. Preserve the experience wording while fitting: do not compress descriptions merely to save space before trying section spacing.
+
+Aim for approximate vertical centering: the visible whitespace above the name and below the final text should be similar. Judge actual rendered content bounds, not just nominal LaTeX margins. After section-spacing adjustments, make a small page-placement adjustment if needed to balance those margins; avoid squeezing line spacing or changing font sizes. The defaults are the starting point, not a reason to force a poor fit on a different amount of content.
+
 ## Render or rerender
 
 1. Receive the exact tailored body file and vacancy output directory from the calling workflow. The body must live under `output/<vacancy-slug>/` and originate as a copy of `cv/master_cv.tex`.

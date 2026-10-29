@@ -6,29 +6,22 @@
 
 
 \section{Professional Summary}
-Machine Learning Engineer with a strong research foundation and hands-on experience delivering robust end-to-end ML systems. Specialized in deep learning, computer vision, systematic experimentation, and production deployment.
-
-\section{Technical Skills}
-\resumeSubHeadingList
-  \resumeItem{\textbf{ML \& CV}: PyTorch/Lightning, MONAI, TensorFlow, JAX, Detectron2, MMEngine/MMCV/MMDetection, Albumentations, Scikit-learn, XGBoost, OpenCV, ITK, pyclesperanto, NumPy, Pandas, CVAT, Transformers/TIMM/Huggingface}
-  \resumeItem{\textbf{Experimentation \& Tracking}: Jupyter Notebook/JupyterLab, MLflow, Tensorboard, Optuna, DVC, Matplotlib/seaborn/Plotly}
-  \resumeItem{\textbf{Infrastructure \& Deployment}: Linux, Docker, Kubernetes, Prefect, CI/CD (GitLab, Bitbucket), AWS, Triton/TensorRT}
-  % Confirmed by candidate: Python/FastAPI segmentation and detection services, with unit and performance tests in CI; uses Codex and Claude Code.
-  \resumeItem{\textbf{Backend \& Dev Tools}: Flask, REST, FastAPI, OpenAPI, FHIR, Git, SQL, MQTT, Codex, Claude Code}
-  \resumeItem{\textbf{Languages}: Python (Professional), C++17, TypeScript (Proficient), Java, MATLAB (Basic)}
-\resumeSubHeadingListEnd
+Machine Learning \& Computer Vision Engineer with research experience since 2020 and 3+ years delivering production systems for medical imaging. Core stack: \textbf{Python} and \textbf{PyTorch}; experience spans 2D--3D registration, X-ray image analysis, and full-cycle ML model development and deployment.
 
 \section{Experience}
 \resumeSubHeadingList
   \resumeSubheading
-      {Machine Learning \& Computer Vision Engineer}{June 2023 -- July 2026}
-      {RAYLYTIC GmbH}{Full-time}
+      {Machine Learning \& Computer Vision Engineer}{Jun 2023 -- Jul 2026}
+      % Public company context, not a claim about the candidate's own dataset or clients.
+      % Source: https://www.raylytic.com/en/references/patient-registry-software/
+      {RAYLYTIC GmbH -- Medical imaging \& clinical-trial software; \projectlink{https://www.raylytic.com/en/references/patient-registry-software/}{2,000+ patients across 50+ sites}}{Full-time}
       \resumeSubHeadingList
-          \resumeItem{\textbullet\ Built an end-to-end 2D--3D registration pipeline, including mesh processing and alignment, for 3D implant pose estimation from X-rays; improved acceptance rate by 45\% and reduced error by 15\%; productionized it with \textbf{GPU-accelerated Docker} and \textbf{Prefect workflow orchestration}}
+          % Candidate confirmed on 2026-10-29: typical clinical-study volume was approximately 2,000--3,000 images per study.
+          \resumeItem{\textbullet\ Built an end-to-end \textbf{2D--3D registration} pipeline for implant pose estimation from X-rays, including mesh processing and alignment, used in clinical studies with typically \textbf{2,000--3,000 images per study}; improved acceptance rate by 45\% and reduced error by 15\%; deployed with GPU-accelerated \textbf{Docker} and \textbf{Prefect}}
           \resumeItem{\textbullet\ Implemented an \textbf{MLOps} pipeline with data versioning via \textbf{DVC}, \textbf{MLflow} experiment tracking, and automated evaluation}
-          \resumeItem{\textbullet\ Delivered production-grade segmentation, detection, and classification models for X-ray imaging; improved accuracy (mAP, Dice, ROC) by 20-50\% over baseline and reduced training time 8-fold}
+          \resumeItem{\textbullet\ Delivered production \textbf{segmentation, detection, and classification} models for X-ray imaging; improved evaluation metrics (mAP, Dice, ROC) by 20--50\% over baseline and reduced training time 8-fold}
           \resumeItem{\textbullet\ Trained a DINOv3 image encoder self-supervised on X-ray data, then used it in a customized ViTDet architecture for supervised instance detection training on labeled data}
-          \resumeItem{\textbullet\ Migrated segmentation model serving to a centralized \textbf{Triton} Inference Server--based \textbf{REST API}, cutting latency by 50\%}
+          \resumeItem{\textbullet\ Migrated segmentation model serving to a centralized \textbf{Triton Inference Server} REST API, cutting latency by 50\%}
           
           \resumeItem{\textbullet\ Developed 3D instance segmentation and registration for light-sheet microscopy images in a \projectlink{https://www.photonikforschung.de/projekte/lebenswissenschaften/projekt/photiomics.html}{liver cancer research project}.}
       \resumeSubHeadingListEnd
@@ -41,7 +34,7 @@ Machine Learning Engineer with a strong research foundation and hands-on experie
       \resumeSubHeadingListEnd
       
   \resumeSubheading
-      {Research Engineer}{January 2022 -- March 2023}
+      {Research Engineer}{Jan 2022 -- Mar 2023}
       {Data Science Research Group}{Part-time}
       \resumeSubHeadingList
           % Confirmed context: learned distributed training on the university HPC cluster and introduced PyTorch Lightning to the research group.
@@ -50,13 +43,23 @@ Machine Learning Engineer with a strong research foundation and hands-on experie
       \resumeSubHeadingListEnd
 
   \vspace{2pt}
-  \textit{\textbf{Internships}}
+  \textbf{Internships}
   \resumeSubHeadingList
       \resumeItem{\textbullet\ {ML Thesis Student at RAYLYTIC GmbH} -- (Oct 2022 -- Feb 2023): Developed anatomical landmark localization model}
       \resumeItem{\textbullet\ {ML Intern at Prudsys GmbH} -- (Dec 2021 -- Feb 2022): Automated analytic workflows and data preprocessing pipelines}
       \resumeItem{\textbullet\ {Autonomous Driving Intern at IAV GmbH} -- (Sep 2021 -- Nov 2021): Investigated inverse {reinforcement learning} for self-driving}
       \resumeItem{\textbullet\ {Student Research Assistant at WHZ} -- (Jan 2020 -- Dec 2021): Developed a \projectlink{https://www.youtube.com/watch?v=Xa7rivGy6WQ}{semantic segmentation model for automated tissue-density analysis of 3D lung CT scans}; developed an {autoML} library and predicted patient admission to the ICU during COVID.}
   \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\resumeSubHeadingList
+  \resumeItem{\textbf{Programming Languages}: \textbf{Python}, C++17, TypeScript, Java, MATLAB}
+  \resumeItem{\textbf{ML \& CV}: \textbf{PyTorch}, PyTorch Lightning, MONAI, TensorFlow, JAX, Detectron2, MMEngine/MMCV/MMDetection, Albumentations, scikit-learn, XGBoost, OpenCV, ITK, pyclesperanto, NumPy, pandas, CVAT, Hugging Face Transformers, timm}
+  \resumeItem{\textbf{Experimentation \& Tracking}: Jupyter Notebook/JupyterLab, MLflow, TensorBoard, Optuna, DVC, Matplotlib/seaborn/Plotly}
+  \resumeItem{\textbf{Infrastructure \& Deployment}: Linux, Docker, Kubernetes, Prefect, CI/CD (GitLab, Bitbucket), AWS, Triton Inference Server, TensorRT}
+  % Confirmed by candidate: Python/FastAPI segmentation and detection services, with unit and performance tests in CI; uses Codex and Claude Code.
+  \resumeItem{\textbf{Backend \& Dev Tools}: Flask, REST, FastAPI, OpenAPI, FHIR, Git, SQL, MQTT, Codex, Claude Code}
 \resumeSubHeadingListEnd
 
 \section{Education}
@@ -81,5 +84,5 @@ Machine Learning Engineer with a strong research foundation and hands-on experie
 
 \section{Languages}
 \resumeSubHeadingList
-  \resumeItem{German (C2; TestDaF C1), English (C2, EF SET Certificate)}
+  \resumeItem{German (C2; TestDaF C1, 2019), English (C2, EF SET Certificate)}
 \resumeSubHeadingListEnd
