@@ -7,17 +7,19 @@
 
 
 \section{Professional Summary}
-Computer Vision \& Machine Learning Engineer with 3+ years delivering production medical-imaging systems and a background in civil engineering. Experience spans 2D--3D registration, mesh processing, and cloud hosting of image classification models; core tools: \textbf{Python} and \textbf{PyTorch}.
+Machine Learning \& Computer Vision Engineer with research experience since 2020 and 3+ years delivering production systems for medical imaging. Core stack: \textbf{Python} and \textbf{PyTorch}; experience spans 2D--3D registration, X-ray image analysis, and full-cycle ML model development and deployment.
 
 \section{Experience}
 \resumeSubHeadingList
   \resumeSubheading
       {Machine Learning \& Computer Vision Engineer}{Jun 2023 -- Jul 2026}
-      {RAYLYTIC GmbH -- Medical imaging \& clinical-trial software}{Full-time}
+      % Public company context, not a claim about the candidate's own dataset or clients.
+      % Source: https://www.raylytic.com/en/references/patient-registry-software/
+      {RAYLYTIC GmbH -- Medical imaging \& clinical-trial software; \projectlink{https://www.raylytic.com/en/references/patient-registry-software/}{2,000+ patients across 50+ sites}}{Full-time}
       \resumeSubHeadingList
           % Candidate confirmed on 2026-10-29: typical clinical-study volume was approximately 2,000--3,000 images per study.
-          \resumeItem{\textbullet\ Built an end-to-end \textbf{2D--3D registration} pipeline for implant pose estimation from X-rays, including \textbf{mesh processing and alignment}, used in clinical studies with typically 2,000--3,000 images per study; improved acceptance rate by 45\% and reduced error by 15\%; deployed with GPU-accelerated \textbf{Docker} and \textbf{Prefect}}
-          \resumeItem{\textbullet\ Implemented an \textbf{MLOps pipeline} combining data versioning with DVC, \textbf{MLflow} experiment tracking, and automated evaluation}
+          \resumeItem{\textbullet\ Built an end-to-end \textbf{2D--3D registration} pipeline for implant pose estimation from X-rays, including \textbf{mesh processing and alignment}, used in clinical studies with typically \textbf{2,000--3,000 images per study}; improved acceptance rate by 45\% and reduced error by 15\%; deployed with GPU-accelerated \textbf{Docker} and \textbf{Prefect}}
+          \resumeItem{\textbullet\ Implemented an \textbf{MLOps pipeline} combining data versioning with \textbf{DVC}, \textbf{MLflow} experiment tracking, and automated evaluation}
           \resumeItem{\textbullet\ Delivered production \textbf{detection, segmentation, and classification} models for X-ray imaging; improved evaluation metrics (mAP, Dice, ROC) by 20--50\% over baseline and reduced training time 8-fold}
           \resumeItem{\textbullet\ Trained a DINOv3 image encoder self-supervised on X-ray data, then used it in a customized ViTDet architecture for supervised instance detection training on labeled data}
           \resumeItem{\textbullet\ Migrated segmentation model serving to a centralized \textbf{Triton Inference Server} REST API, cutting latency by 50\%}
