@@ -1,0 +1,14 @@
+Dear Airteam team,
+
+I am applying for the Computer Vision Engineer position because my experience developing production computer vision systems, particularly for 2D–3D registration, provides a strong foundation for your work with drone imagery and geometry reconstruction. I bring over three years of commercial experience in medical imaging, alongside degrees in data science and civil engineering.
+
+At RAYLYTIC, I built an end-to-end pipeline for estimating implant poses from X-rays, including mesh processing, alignment, evaluation, and deployment with GPU-accelerated Docker and Prefect. The pipeline improved the acceptance rate by 45% and reduced error by 15%, and was used in clinical studies typically involving 2,000–3,000 images each. Working on this system taught me to connect image analysis with geometric reasoning and to carry an algorithm through to reliable production use. I would bring that experience to Airteam’s challenges in extracting useful spatial information from drone data.
+
+My work also covered detection, segmentation, and classification models, supported by data versioning with DVC, experiment tracking with MLflow, and automated evaluation. I migrated segmentation model serving to a centralized Triton Inference Server API, reducing latency by 50%. These projects reflect the combination I enjoy: developing models in Python and PyTorch while building the infrastructure needed to evaluate, deploy, and maintain them.
+
+Airteam appeals to me because it connects computer vision with practical decisions in construction and solar planning. My civil engineering education gives me an additional perspective on the geometry involved, while contributing to a climate-related product would be personally meaningful. I would welcome the opportunity to apply my experience to this domain and help develop dependable ML pipelines for your platform. I am fluent in English and German.
+
+I would be glad to discuss how my experience could contribute to Airteam.
+
+Kind regards,
+Kostiantyn Pysanyi
