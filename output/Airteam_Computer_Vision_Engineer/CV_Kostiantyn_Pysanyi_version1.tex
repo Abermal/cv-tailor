@@ -1,0 +1,166 @@
+% Stable LaTeX document shell and CV header.
+% Keep contact details, packages, macros, and layout here.
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+% Font options
+\usepackage[sfdefault]{roboto}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{4pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{\Large\bfseries\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{5pt}{5pt}
+\setlist[itemize]{topsep=1.5pt, partopsep=0pt, parsep=0pt, itemsep=2pt}
+
+% Ensure PDF is machine readable
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+    \item\small{#1}\vspace{-0.5pt}
+}
+\newcommand{\projectlink}[2]{\href{#1}{\textcolor[gray]{0.18}{\robotoMedium{#2}}}}
+\newcommand{\resumeSubheading}[4]{
+\vspace{2pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{{#3}} & {#4} \\
+  \end{tabular*}\vspace{-0pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingList}{\begin{itemize}[leftmargin=0.15in, label={}]\vspace{-2pt}}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+  \textbf{\Huge Kostiantyn Pysanyi}\vspace{4pt} \\
+  \small +49 1525 8447880 $|$ \href{mailto:kostiantyn.pysanyi@gmail.com}{kostiantyn.pysanyi@gmail.com} $|$ Leipzig, Germany $|$
+  \href{https://www.linkedin.com/in/kostiantyn-pysanyi/}{linkedin.com/in/kostiantyn-pysanyi} $|$ \href{https://github.com/Abermal}{github.com/Abermal}
+\end{center}
+% Approved default page placement and contact-to-summary gap.
+\addtolength{\topmargin}{-0.12in}
+\enlargethispage{0.35in}
+\vspace{-8pt}
+
+% Tailored from cv/master_cv.tex, including the candidate's confirmed conda/mamba and AWS hosting experience.
+\titlespacing*{\section}{0pt}{4pt}{4pt}
+
+% MLOPS
+% \section{Professional Summary}
+% End-to-end Machine Learning Engineer with solid MLOps experience and a strong research foundation. Proven track record in deploying production-scale ML systems, improving accuracy, reducing latency, and driving real-time model performance. Adept at collaborating across science, engineering and product teams to build impactful solutions.
+
+
+\section{Professional Summary}
+Computer Vision \& Machine Learning Engineer with 3+ years delivering production medical-imaging systems and a background in civil engineering. Experience spans 2D--3D registration, mesh processing, and cloud hosting of image classification models; core tools: \textbf{Python} and \textbf{PyTorch}.
+
+\section{Experience}
+\resumeSubHeadingList
+  \resumeSubheading
+      {Machine Learning \& Computer Vision Engineer}{Jun 2023 -- Jul 2026}
+      {RAYLYTIC GmbH -- Medical imaging \& clinical-trial software}{Full-time}
+      \resumeSubHeadingList
+          % Candidate confirmed on 2026-10-29: typical clinical-study volume was approximately 2,000--3,000 images per study.
+          \resumeItem{\textbullet\ Built an end-to-end \textbf{2D--3D registration} pipeline for implant pose estimation from X-rays, including \textbf{mesh processing and alignment}, used in clinical studies with typically 2,000--3,000 images per study; improved acceptance rate by 45\% and reduced error by 15\%; deployed with GPU-accelerated \textbf{Docker} and \textbf{Prefect}}
+          \resumeItem{\textbullet\ Implemented an \textbf{MLOps pipeline} combining data versioning with DVC, \textbf{MLflow} experiment tracking, and automated evaluation}
+          \resumeItem{\textbullet\ Delivered production \textbf{detection, segmentation, and classification} models for X-ray imaging; improved evaluation metrics (mAP, Dice, ROC) by 20--50\% over baseline and reduced training time 8-fold}
+          \resumeItem{\textbullet\ Trained a DINOv3 image encoder self-supervised on X-ray data, then used it in a customized ViTDet architecture for supervised instance detection training on labeled data}
+          \resumeItem{\textbullet\ Migrated segmentation model serving to a centralized \textbf{Triton Inference Server} REST API, cutting latency by 50\%}
+
+          \resumeItem{\textbullet\ Developed \textbf{3D instance segmentation and registration} for light-sheet microscopy images in a \projectlink{https://www.photonikforschung.de/projekte/lebenswissenschaften/projekt/photiomics.html}{liver cancer research project}.}
+      \resumeSubHeadingListEnd
+
+  \resumeSubheading
+      {Freelance Computer Vision Engineer}{Feb 2026 -- Mar 2026}
+      {Smoothr.de / Sterlix GmbH}{Contract}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Developed \textbf{depth-map--based} camera obstruction detection for real-time retail anti-theft systems}
+      \resumeSubHeadingListEnd
+
+  \resumeSubheading
+      {Research Engineer}{Jan 2022 -- Mar 2023}
+      {Data Science Research Group}{Part-time}
+      \resumeSubHeadingList
+          % Confirmed context: learned distributed training on the university HPC cluster and introduced PyTorch Lightning to the research group.
+          \resumeItem{\textbullet\ Designed data pipelines and training workflows for a ticket-routing classifier, transforming unstructured text into structured features and streamlining dataset updates and model evaluation for \projectlink{https://infai.org/projekt-kmi/}{industry partners}.}
+          \resumeItem{\textbullet\ Developed a demo ML model for bio-signal time-series classification using a high-performance computing cluster for pain-level assessment in surgical scenarios with non-responsive patients}
+      \resumeSubHeadingListEnd
+
+  \vspace{2pt}
+  \textbf{Internships}
+  \resumeSubHeadingList
+      \resumeItem{\textbullet\ {ML Thesis Student at RAYLYTIC GmbH} -- (Oct 2022 -- Feb 2023): Developed anatomical landmark localization model}
+      \resumeItem{\textbullet\ {ML Intern at Prudsys GmbH} -- (Dec 2021 -- Feb 2022): Automated analytic workflows and data preprocessing pipelines}
+      \resumeItem{\textbullet\ {Autonomous Driving Intern at IAV GmbH} -- (Sep 2021 -- Nov 2021): Investigated inverse {reinforcement learning} for self-driving}
+      \resumeItem{\textbullet\ {Student Research Assistant at WHZ} -- (Jan 2020 -- Dec 2021): Developed a \projectlink{https://www.youtube.com/watch?v=Xa7rivGy6WQ}{semantic segmentation model for automated tissue-density analysis of 3D lung CT scans}; developed an {autoML} library and predicted patient admission to the ICU during COVID.}
+  \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\resumeSubHeadingList
+  \resumeItem{\textbf{Programming Languages}: \textbf{Python}, C++17, TypeScript, Java, MATLAB}
+  \resumeItem{\textbf{ML \& CV}: \textbf{PyTorch}, PyTorch Lightning, MONAI, TensorFlow, JAX, Detectron2, MMEngine/MMCV/MMDetection, Albumentations, scikit-learn, XGBoost, OpenCV, ITK, pyclesperanto, NumPy, pandas, CVAT, Hugging Face Transformers, timm}
+  \resumeItem{\textbf{Experimentation \& Tracking}: \textbf{MLflow}, DVC, Jupyter Notebook/JupyterLab, TensorBoard, Optuna, Matplotlib/seaborn/Plotly}
+  % Candidate confirmed on 2026-11-01: uses conda and mamba; used AWS for image classification model hosting.
+  \resumeItem{\textbf{Infrastructure \& Deployment}: \textbf{Docker}, \textbf{Kubernetes}, \textbf{conda}, mamba, Prefect, AWS, Linux, CI/CD (GitLab, Bitbucket), Triton Inference Server, TensorRT}
+  % Confirmed by candidate: Python/FastAPI segmentation and detection services, with unit and performance tests in CI; uses Codex and Claude Code.
+  \resumeItem{\textbf{Backend \& Dev Tools}: \textbf{Git}, FastAPI, Flask, REST, OpenAPI, FHIR, SQL, MQTT, Codex, Claude Code}
+\resumeSubHeadingListEnd
+
+\section{Education}
+\resumeSubHeadingList
+  \resumeSubheading
+      {B.Sc.\ Data Science with distinction (1.1 / 1.0)}{Oct 2019 -- Apr 2023}
+      {University of Applied Sciences Zwickau}{Zwickau, Germany}
+      % \textbullet\ \small{Thesis: Anatomical landmark localization for lumbar segmental angle estimation}
+\vspace{-2pt}
+  \resumeSubheading
+      {B.Sc.\ and M.Sc.\ Civil Engineering (M.Sc.\ wGPA: 90.12/100)}{Sep 2014 -- Jun 2020}
+      {Odesa State Academy of Civil Engineering and Architecture}{Odesa, Ukraine}
+      % \textbullet\ \small{Thesis: Dynamics and stability of rectangular orthotropic plates}
+\resumeSubHeadingListEnd
+
+\section{Publications \& Awards}
+\resumeSubHeadingList
+  \resumeItem{\textbf{EFORT 2026}: Validation of a 2D-3D Image Registration Method for TKA Implant Pose Estimation. Pysanyi et al.}
+  \resumeItem{\textbf{DWG 2023}: Automatic determination of lumbar segmental lordosis based on an AI algorithm. Pysanyi et al.}
+  \resumeItem{\textbf{1st Place}: National Strength of Materials Olympiad (Ukraine, 2018)}
+\resumeSubHeadingListEnd
+
+\section{Languages}
+\resumeSubHeadingList
+  \resumeItem{German (C2; TestDaF C1, 2019), English (C2, EF SET Certificate)}
+\resumeSubHeadingListEnd
+
+\end{document}

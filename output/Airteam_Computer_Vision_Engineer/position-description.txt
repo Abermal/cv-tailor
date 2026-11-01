@@ -1,0 +1,39 @@
+About the job
+Airteam is a Berlin-based SaaS startup with an AI-powered cloud platform for roofers and solar planners. As a mid-level Computer Vision Engineer, you'll build 2D-to-3D object detection and automatic geometry reconstruction from drone data. Your work helps roofers and solar planners make informed decisions and drives a climate-neutral product.
+Tasks
+
+Develop and implement computer vision algorithms for 2D-to-3D object detection using drone data
+
+Integrate ML models into our platform together with the engineering teams
+
+Build end-to-end ML pipelines with GCP, Python, Argo, PyTorch and MLflow
+
+Implement data preprocessing, model training, deployment and monitoring
+
+Visualize and communicate findings to stakeholders
+
+
+
+Requirements
+
+2-4 years of commercial experience in data science/ML, including Computer Vision and Deep Learning
+
+Experience across the full ML lifecycle (preprocessing, training, evaluation, deployment, monitoring), incl. conda and MLflow or comparable tools
+
+Solid software engineering skills: Python, Git/GitHub, Docker/Kubernetes, cloud platforms
+
+Strong problem-solving, communication and teamwork skills, plus a willingness to learn new tools quickly
+
+Fluent English (written and spoken), as our team works internationally (German is a plus, but not required)
+
+
+
+Nice-to-have
+
+Experience in construction or a related industry
+
+Experience with our stack: GCP, Vertex AI, PyTorch, Conda, MLflow, GitHub, Argo Workflows
+
+Experience building and maintaining ML pipelines
+
+A goal-oriented, "just do it" mentality

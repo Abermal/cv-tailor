@@ -1,0 +1,7 @@
+Additional facts confirmed by the candidate for this application on 1 November 2026:
+- Uses conda and mamba.
+- Used AWS for image classification model hosting.
+
+These confirmations are recorded in cv/master_cv.tex and used in the vacancy-specific CV.
+No employer, dates, AWS services, or orchestration/monitoring details were specified for the hosting work.
+The master CV was updated at the candidate's request; the shared header remains unchanged.
