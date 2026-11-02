@@ -42,13 +42,25 @@ Use a body-first workflow. For job matching, read the complete position descript
 - Treat fitting as an iterative process. Start with the smallest safe change—such as removing an unnecessary blank line, line break, or local vertical-space command—then rebuild and recheck the page count before making a larger edit.
 - Re-render after each fitting iteration, stopping as soon as the CV fits cleanly and remains readable. Verify after every iteration that no experience entry disappeared and that factual meaning was preserved.
 
+## Professional Summary: select for the vacancy
+
+- Treat the master CV as evidence, not as a summary template. Before drafting, select the vacancy's two or three main responsibilities and match them to the strongest supported experience. Build the summary around that overlap rather than copying the master's opening or following the chronology of past work.
+- Let relevance determine domain emphasis. When the target sector differs from the candidate's previous sector, lead with transferable methods, engineering work, and results. Keep the original sector and application context in the relevant experience entries; mention them in the summary only when they help establish fit. Never imply experience in the target sector merely by adopting its terminology.
+- Generally use two complementary sentences: establish professional identity and relevant experience first, then state the focus that connects that experience to the role. Distinguish research and part-time experience from full-time production work when stating years. Include at most two supported technologies central to the vacancy; keep the remaining stack elsewhere. Avoid generic self-praise, repeated concepts, and a list of tools.
+- Keep revision scope precise. Restoring a metric, employer context, or reviewed experience wording does not require restoring the master summary. After any summary revision or restoration, repeat the relevance checks below.
+
+Before rendering, check the actual summary against the saved position description:
+
+1. Which main responsibility does its stated focus address, and what master-CV evidence supports it? If that connection is unclear, rewrite it.
+2. Does a previous industry or application dominate the opening despite being peripheral to this vacancy? If so, foreground the supported transferable work while retaining factual context in Experience.
+3. Do the sentences add different information, read naturally, and accurately represent experience and technologies?
+
+For example, for a geometry reconstruction vacancy, supported registration, mesh processing, and ML pipeline work can lead the summary. The clinical application remains evidence in Experience. For a medical-imaging vacancy, that same clinical context may deserve prominence in the summary.
+
 ## Tailoring boundaries
 
 - Never invent experience, responsibilities, seniority, metrics, technologies, customer work, architecture ownership, certifications, projects, or outcomes.
 - Do not turn a skill listing into project experience.
-- Keep the Professional Summary concise, specific, and evidence-based, generally two sentences. State the candidate's professional identity, relevant experience, and focus. Include at most one or two technologies when they are supported by the master CV and central to the role or the candidate's positioning. Keep the remaining stack in Technical Skills or substantiated experience bullets; avoid a stack inventory and generic self-praise.
-- Use complementary sentences: establish professional identity and relevant evidence first, then add the vacancy-specific focus and, when useful, core technologies. Distinguish research and part-time experience from full-time production work when describing years of experience. Avoid repeating the same domain, modality, or outcome across both sentences.
-- Before rendering, proofread the Professional Summary for stylistic repetition: check for repeated words, near-synonyms, duplicated concepts, awkward phrasing, and redundant claims across sentences. Revise the summary until the two sentences are complementary and read naturally, while preserving factual meaning.
 - Preserve the existing `Languages` section as the only location for language information. Never add `Spoken Languages`, `Languages & Communication`, or similar duplicates.
 - Do not modify `cv/header_cv.tex` for vacancy-specific changes. Header/contact changes require an explicit user request.
 - Do not modify `cv/master_cv.tex` when tailoring a vacancy.
