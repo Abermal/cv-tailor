@@ -43,7 +43,16 @@ This file contains user-provided context for writing cover letters. It complemen
 - For clinical-trial spine imaging, the candidate developed an object-detection model for anatomical structures. Because the labeled dataset was small, they designed a custom ViTDet architecture with a DINOv3 backbone using MMDetection, trained it with self-supervised learning on a much larger unlabeled dataset, and then performed supervised fine-tuning.
 - The candidate designed augmentations to address imbalances in object location, size, and distribution while preserving anatomical constraints.
 - Prior to the custom ViTDet work, the candidate worked extensively on a legacy Mask R-CNN detector. This is hands-on experience with an established two-stage detection architecture.
-- The candidate proposed replacing the existing COCO annotation tool with CVAT, labeled data personally, and mentored an intern on using the tooling within the intern's project. This supports claims about annotation ownership, labeling quality, and feedback between model errors and dataset revisions.
+- The candidate proposed replacing the existing COCO annotation tool with CVAT, labeled data personally, and mentored a working student on using the tooling within the student's project. This supports claims about annotation ownership, labeling quality, and feedback between model errors and dataset revisions. The broader supervision responsibilities are recorded below.
+
+## Working-student supervision and technical mentoring
+
+- The candidate was the formally assigned supervisor (Betreuer) of a working student (Werkstudent) for six months, responsible for the student's work and successful completion of the project. The candidate clarified this on 9 October 2026; earlier context referred to the student as an intern.
+- The candidate conceived the student's project: X-ray image preprocessing, including alignment and cropping.
+- The candidate defined the project structure and broke the work down into agile epics and tickets for the student.
+- Throughout the project, the candidate reviewed the student's work, provided technical guidance, and mentored the student.
+- The student implemented and delivered the project under the candidate's supervision, and the solution was used in production. By reducing redundant, non-informative image regions, the preprocessing reduced compute requirements for the affected processing by 30%, as confirmed by the candidate on 9 October 2026.
+- For roles requiring technical leadership, use this as concrete evidence of formal supervisory responsibility, project conception and scoping, task planning, delegation, review, sustained mentoring, and a delivered production outcome with measurable impact. Attribute the implementation to the student and the project conception, planning, supervision, and guidance to the candidate.
 
 ## Real-time perception and tracking context
 
